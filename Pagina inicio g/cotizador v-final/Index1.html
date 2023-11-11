@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cotizador</title>
+  <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+  <h1>Renta de autos</h1>
+
+  <div class="container">
+    <div class="linea">
+      <!-- Apartado 1 -->
+      <section id="apartados">
+        <h2>Tipo de auto</h2>
+        <img src="Images/agencia.jpg" alt="Tamaño">
+        <ul><input type="radio" name="opcion1" value="2495"> Camioneta</ul>
+        <ul><input type="radio" name="opcion1" value="1500"> Automovil</ul>
+        <ul><input type="radio" name="opcion1" value="3216"> Camioneta-batea</ul>
+    </div>
+    </section>
+
+    <div class="linea">
+      <!-- Apartado 2 -->
+      <section id="apartados">
+        <h2>Año de auto</h2>
+        <img src="Images/año.jpg" alt="">
+        <ul><input type="radio" name="opcion2" value="650" id="opcion1"> 2020</ul>
+        <ul><input type="radio" name="opcion2" value="700" id="opcion2"> 2021</ul>
+        <ul><input type="radio" name="opcion2" value="750" id="opcion3"> 2022</ul>
+        <ul><input type="radio" name="opcion2" value="800" id="opcion3"> 2023</ul>
+      </section>
+    </div>
+    </section>
+
+    <div class="linea">
+      <!-- Apartado 3 -->
+      <section id="apartados">
+        <h2>Color de auto</h2>
+        <img src="Images/color.jpg" alt="">
+        <ul><input type="radio" name="opcion3" value="100" id="opcion4"> Blanco</ul>
+        <ul><input type="radio" name="opcion3" value="150" id="opcion5"> Negro</ul>
+        <ul><input type="radio" name="opcion3" value="150" id="opcion6"> Gris</ul>
+        <ul><input type="radio" name="opcion3" value="250" id="opcion4"> Plata</ul>
+    </div>
+    </section>
+
+    <div class="linea">
+      <!-- Apartado 4 -->
+      <section id="apartados">
+        <h2>Marca de carro</h2>
+        <img src="Images/marca.jpg" alt="">
+        <select id="combo">
+          <option value="">Seleccione la opción de entrega</option>
+          <option value="637">Volkswagen</option>
+          <option value="736">Toyota</option>
+          <option value="965">Mercedes-Benz</option>
+          <option value="856">Ford</option>
+          <option value="1236">BMW</option>
+          <option value="652">Honda</option>
+          <option value="751">Hyundai</option>
+          <option value="864">Nissan</option>
+        </select>
+      </section>
+    </div>
+
+
+    <div class="linea">
+      <!-- Apartado 5 -->
+      <section id="apartados">
+        <h2>Silindros en el motor</h2>
+        <img src="Images/silindros.jpg" alt="">
+        <ul><input type="radio" name="opcion5" value="600" id="opcion10"> 4 silindros</ul>
+        <ul><input type="radio" name="opcion5" value="800" id="opcion11"> 6 silindros</ul>
+        <ul><input type="radio" name="opcion5" value="1000" id="opcion12"> 8 silindros</ul>
+      </section>
+    </div>
+
+    <div class="linea">
+      <!-- Apartado 6 -->
+      <section id="apartados">
+        <h2>Dias que se va a utilizar</h2>
+        <img src="Images/dias.jpg" alt="">
+        <select id="combo">
+          <option value="">Seleccione la opción de entrega</option>
+          <option value="450">1 dias</option>
+          <option value="900">2 dias</option>
+          <option value="1350">4 dias</option>
+          <option value="2460">6 dias</option>
+          <option value="8312">8 dias</option>
+          <option value="12864">10 dias</option>
+          <option value="14378">12 dias</option>
+          <option value="18468">14 dias</option>
+          <option value="21355">16 dias</option>
+        </select>
+      </section>
+    </div>
+
+    <div class="linea">
+      <!-- Apartado 7 -->
+      <section id="apartados">
+        <h2>Tiempo de combustible</h2>
+        <img src="Images/tipo de gas.jpg" alt="">
+        <ul><input type="radio" name="opcion7" value="563" id="opcion16"> Gasolina</ul>
+        <ul><input type="radio" name="opcion7" value="864" id="opcion17"> Electrico</ul>
+        <ul><input type="radio" name="opcion7" value="1232" id="opcion18"> Hibrido</ul>
+    </div>
+    </section>
+    <div class="linea">
+      <!-- Apartado 8 -->
+      <section id="apartados">
+        <h2>Transmisión</h2>
+        <img src="Images/trasnmision.jpg" alt="">
+        <ul><input type="radio" name="opcion8" value="1356" id="opcion19"> Transmisión automatica</ul>
+        <ul><input type="radio" name="opcion8" value="1500" id="opcion20"> Transmisión manual</ul>
+      </section>
+    </div>
+
+    <div class="btn">
+      <button id="calcularTotal">Calcular Total</button>
+      <button id="volverACotizar">Volver a Cotizar</button>
+      <!-- Apartado 9 - Resumen y Total -->
+      <section id="ap9">
+        <h2>Total de la cotización</h2>
+        <img src="Images/algo total.jpg">
+        <p>Opciones seleccionadas:</p>
+        <ul id="resumen">
+        </ul>
+        <p>IVA:$ <span id="iva">0</span></p>
+        <p>Total:$ <span id="total">0</span></p>
+        <button id="mostrarResumen">Mostrar Resumen</button>
+      </section>
+    </div>
+    <script src="./Script.js"></script>
+    <script>
+       
+    </script>
+  </div>
+</body>
+
+</html>

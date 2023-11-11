@@ -1,0 +1,69 @@
+body{
+  background-image: url(AUTOS-AGENCIA.jpg);
+  margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .linea {
+    width: 16%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    background-color: #f2f2f59c;
+    margin-right: 8%;
+  }
+  
+  #apartados {
+    border: 1px solid flex #ccc;
+    padding: 10px;
+  }
+  h1{
+    text-align: center;
+    margin-right: 190px;
+  }
+  h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  body {
+    margin-top: 50px;
+    margin-left: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .btn {
+    text-align: center;
+    margin-left: 590px; /* Ajusta según sea necesario */
+  }
+
+  #ap9 {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgba(243, 239, 239, 0.853);
+    border:top #333;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #060605;
+    color: white;
+    /* Otros estilos según tus preferencias */
+  }

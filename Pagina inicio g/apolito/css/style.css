@@ -1,0 +1,79 @@
+body{
+    background-color: #fff;
+
+
+}
+.formularin {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    background-color: rgba(123, 236, 244, 0.783);
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 140px;
+    margin-right: 140px; 
+}
+#sumar {
+    display: flex;
+    justify-content: center;
+    background-color: #15bd2b; /* Fondo verde */
+    color: white; /* Texto en blanco */
+    padding: 10px 20px; /* Relleno interno */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+    font-size: 24px; /* Aumenta el tamaño de la fuente */
+}
+#sumar:hover {
+    background-color: #19501c; /* Cambiar color al pasar el mouse */
+}
+#textosalida {
+    font-size: 24px; /* Tamaño de fuente más grande */
+}
+
+button[type="button"] {
+    background-color: #3d35d3; /* Fondo rojo */
+    color: white; /* Texto en blanco */
+    padding: 10px 20px; /* Relleno interno */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambiar el cursor al pasar el mouse */
+    font-size: 24px; /* Aumenta el tamaño de la fuente */
+}
+
+button[type="button"]:hover {
+    background-color: #434c90; /* Cambiar color al pasar el mouse */
+}
+.botoncitos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+footer{
+    text-align: center;
+    background-color: #dfff9a56;
+    padding: 1rem;
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+header{
+    text-align: center;
+    background-color: #9452b556;
+    padding: 1rem;
+    font-size: 40px;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+}
+
+.feedback-icon {
+    margin-left: 5px;
+    font-size: 16px;
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Combobox</title>
+  <link rel="stylesheet" href="css/Style.css">
+</head>
+
+<body>
+  <html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>ComboBox</title>
+  </head>
+
+  <body>
+    <section id="r1">
+      <label for="Seleccionrespuesta">1.-Bruselas, es la capital del país denominado:<span id="icono1"></span></label>
+
+      <select name="Respuesta" id="seleccionelarespuesta1" onchange="ShowSelected();" onmouseover="ChangeColor(this);">
+        <option value="">Selecciona una respuesta</option>
+        <option value="0" data-icon="tache">Guatemala</option>
+        <option value="1"data-icon="paloma">Bélgica</option>
+        <option value="0" data-icon="tache">Buenos Aires</option>
+        <option value="0" data-icon="tache">Puerto Rico</option>
+      </select>
+    </section>
+
+    <section id="r2">
+      <label for="Seleccionrespuesta">2.-La capital de Argentina es:<span id="icono2"></span></label>
+
+      <select name="Respuesta" id="seleccionelarespuesta2" onchange="ShowSelected();" onmouseover="ChangeColor(this);">
+        <option value="">Selecciona una respuesta</option>
+        <option value="0" data-icon="tache">Guatemala</option>
+        <option value="0" data-icon="tache">Belmopan</option>
+        <option value="1" data-icon="paloma">Buenos Aires</option>
+        <option value="0" data-icon="tache">Puerto Rico</option>
+      </select>
+    </section>
+
+    <section id="r3">
+      <label for="Seleccionrespuesta">3.-San José es la capital de:<span id="icono3"></span></label>
+
+      <select name="Respuesta" id="seleccionelarespuesta3" onchange="ShowSelected();" onmouseover="ChangeColor(this);">
+        <option value="">Selecciona una respuesta</option>
+        <option value="0" data-icon="tache">Brasil</option>
+        <option value="0" data-icon="tache">Argentina</option>
+        <option value="0" data-icon="tache">Puerto Rico</option>
+        <option value="1" data-icon="paloma">Costa Rica</option>
+      </select>
+    </section>
+
+    <section id="r4">
+      <label for="Seleccionrespuesta">4.-La capital de Venezuela es:<span id="icono4"></span></label>
+
+      <select name="Respuesta" id="seleccionelarespuesta4" onchange="ShowSelected();" onmouseover="ChangeColor(this);">
+        <option value="">Selecciona una respuesta</option>
+        <option value="0" data-icon="tache">Tegucigalpa</option>
+        <option value="0" data-icon="tache">Managua</option>
+        <option value="0" data-icon="tache">Panamá</option>
+        <option value="1" data-icon="paloma">Caracas</option>
+      </select>
+    </section>
+
+    <section id="r5">
+      <label for="Seleccionrespuesta">5.-Brasilia, es la capital del país:<span id="icono5"></span></label>
+
+      <select name="Respuesta" id="seleccionelarespuesta5" onchange="ShowSelected();" onmouseover="ChangeColor(this);">
+        <option value="">Selecciona una respuesta</option>
+        <option value="0" data-icon="tache">Colombia</option>
+        <option value="0" data-icon="tache"> Ecuador</option>
+        <option value="1" data-icon="paloma">Brazil</option>
+        <option value="0" data-icon="tache">Perú</option>
+      </select>
+    </section>
+
+    <section id="r6">
+      <label for="Seleccionrespuesta">6.-La capital de Perú es:<span id="icono6"></span></label>
+
+      <select name="Respuesta" id="seleccionelarespuesta6" onchange="ShowSelected();" onmouseover="ChangeColor(this);">
+        <option value="">Selecciona una respuesta</option>
+        <option value="0" data-icon="tache">Sucre</option>
+        <option value="0" data-icon="tache">Bogotá</option>
+        <option value="0" data-icon="tache">Montevideo</option>
+        <option value="1" data-icon="paloma">Lima</option>
+      </select>
+    </section>
+
+    <section id="r7">
+      <label for="Seleccionrespuesta">7.-Puerto España es la capital de:<span id="icono7"></span></label>
+
+      <select name="Respuesta" id="seleccionelarespuesta7" onchange="ShowSelected();" onmouseover="ChangeColor(this);">
+        <option value="">Selecciona una respuesta</option>
+        <option value="0" data-icon="tache">Surinam</option>
+        <option value="0" data-icon="tache">Bolivia</option>
+        <option value="0" data-icon="tache">Brasil</option>
+        <option value="1" data-icon="paloma">Trinidad y Tobago</option>
+      </select>
+    </section>
+
+    <section id="r8">
+      <label for="Seleccionrespuesta">8.-Cuba, país cuya capital es:<span id="icono8"></span></label>
+
+      <select name="Respuesta" id="seleccionelarespuesta8" onchange="ShowSelected();" onmouseover="ChangeColor(this);">
+        <option value="">Selecciona una respuesta</option>
+        <option value="0" data-icon="tache">Kingston</option>
+        <option value="0" data-icon="tache">Santo Domingo</option>
+        <option value="1" data-icon="paloma">La habana</option>
+        <option value="0" data-icon="tache">Castries</option>
+      </select>
+    </section>
+
+    <section id="r9">
+      <label for="Seleccionrespuesta">9.-Managua, es la capital que pertenece a:<span id="icono9" ></span></label>
+
+      <select name="Respuesta" id="seleccionelarespuesta9" onchange="ShowSelected();" onmouseover="ChangeColor(this);">
+        <option value="">Selecciona una respuesta</option>
+        <option value="0" data-icon="tache">Panamá</option>
+        <option value="0" data-icon="tache">Honduras</option>
+        <option value="1" data-icon="paloma">Nicaragua</option>
+        <option value="0" data-icon="tache">Belice</option>
+      </select>
+    </section>
+
+    <section id="r10">
+      <label for="Seleccionrespuesta">10.-Ecuador, tiene como capital:<span id="icono10"></span></label>
+
+      <select name="Respuesta" id="seleccionelarespuesta10" onchange="ShowSelected();" onmouseover="ChangeColor(this);">
+        <option value="">Selecciona una respuesta</option>
+        <option value="0" data-icon="tache">Parabarimo</option>
+        <option value="0" data-icon="tache">Montevideo</option>
+        <option value="0" data-icon="tache">Asunción</option>
+        <option value="1" data-icon="paloma">Quito</option>
+      </select>
+    </section>
+    <button id="sumarBoton">Puntuaciòn</button>
+    <button id="refreshBoton">Refresh</button>
+    <p id="resultado"></p>
+    <script>
+      
+
+  function ResetColor(select) {
+    select.style.backgroundColor = ""; // Restablece el color de fondo a su estado original
+  }
+    // Restablece el color de fondo de los combobox después de hacer clic en "Puntuación"
+    var selectElements = document.querySelectorAll("select[id^='seleccionelarespuesta']");
+    selectElements.forEach(function (select) {
+      ResetColor(select);
+    });
+      document.getElementById("sumarBoton").addEventListener("click", function () {
+        var selectElements = document.querySelectorAll("select[id^='seleccionelarespuesta']");
+        var suma = 0;
+        var respuestasIncorrectas = [];
+        selectElements.forEach(function (select, index) {
+          var selectedOption = select.options[select.selectedIndex];
+          if (selectedOption) {
+            suma += parseInt(selectedOption.value);
+            if (parseInt(selectedOption.value) === 0) {
+          respuestasIncorrectas.push("Pregunta " + (index + 1));
+          document.getElementById("icono" + (index + 1)).textContent = "❌"; // Mostrar tache (❌) en etiqueta incorrecta
+      } else {
+        document.getElementById("icono" + (index + 1)).textContent = "✅"; // Mostrar paloma (✅) en etiqueta correcta
+      }
+        }
+        });
+        var resultadoMensaje = "Tus aciertos son: " + suma + '/10';
+
+        if (suma >= 7) {
+      resultadoMensaje += " - Imprecionante";
+    } else {
+      resultadoMensaje += " - Buen intento ";
+      if (respuestasIncorrectas.length > 0) {
+        
+      }
+    }
+    document.getElementById("resultado").textContent = resultadoMensaje;
+
+    selectElements.forEach(function (select) {
+      select.disabled = true;
+    });
+        });
+      document.getElementById("refreshBoton").addEventListener("click", function () {
+        location.reload();
+      });
+      function ShowSelected() {
+
+      }
+    </script>
+  </body>
+
+  </html>
+</body>
+
+</html>
